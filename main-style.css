@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior:smooth;
+}
+header{
+    width: 100;
+    height: 100px;
+    background: rgb(250, 246, 246);
+   
+   
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+ul li{
+    text-decoration: none;
+    padding: 13px 30px;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.logo{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+ul li a:hover{
+    color: rgb(230, 16, 194);
+}
+h1{
+ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    padding: 2% 10%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#introduce{
+   
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0),rgba(0,0,0,0)),url(images/background1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+span{
+    color: rgb(230, 16, 194);
+}
+h2,h3{
+    color: white;
+   /*  padding-left: 10px;
+    padding-top: 60px; */
+}
+.info{
+padding: 50px;
+padding-left: 10px;
+padding-top: 80px;
+}
+.icons a i{
+color: #ffff;
+font-size: 25px;
+padding-left: 13px;
+}
+.icons a i:hover{
+    color: rgb(230, 16, 194);
+}
+#About{
+    width: 100%;
+    height: 500px;
+display: flex;
+
+}
+.intro{
+    padding-left: 160px;
+    padding-top: 100px;
+}
+.par{
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+.intro h4,h6{
+    text-align: center;
+}
+.div1 ,.div1CSS,.div1JAVASCRIPT,.div1English{
+    width: 800px;
+    height: 15px;
+   
+    border-radius: 20px;
+    background: rgb(214, 211, 211);
+
+}
+.div2{
+    width: 750px;
+    height: 15px;
+    background: rgb(247, 57, 146);
+    border-radius: 20px;
+}
+.parent{
+    padding-top: 5px;
+}
+.lang{
+    display: flex;
+ 
+}
+.lang .percent{
+    padding-left: 730px;
+}
+.div2CSS{
+    width: 700px;
+    height: 15px;
+    background: rgb(247, 57, 146);
+    border-radius: 20px;
+}
+.div2English{
+    width: 600px;
+    height: 15px;
+    background: rgb(247, 57, 146);
+    border-radius: 20px;
+} 
+.div2JAVASCRIPT{
+
+    width: 500px;
+    height: 15px;
+    background: rgb(247, 57, 146);
+    border-radius: 20px;
+}
+.percentJS{
+    padding-left: 690px;
+}
+.percentEN{
+    padding-left: 680px;
+}
+#Experience{
+    width: 100%;
+    height: 600px;
+    background: rgb(226, 221, 221);
+    display: flex;
+}
+.Experience{
+    padding-left: 160px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+.one{
+    width: 250px;
+    height: 400px;
+    background: #fff;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.one p i{
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+.tags{
+    padding-top: 10px;
+    padding-left: 30px;
+font-weight: bold;
+}
+.lorem{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.divstion{
+    display: flex;
+    padding-left: 50px;
+}
+#Works{
+    width: 100%;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+#Works div h4{
+    padding-left: 160px;
+    padding-top: 100px;
+}
+#Works .images img {
+    transition: 0.5s;
+width: 280px;
+height: 250px;
+}
+#Works .images {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 220px;
+}
+#Works .images2 {
+    display: flex;
+   
+    padding-left: 220px;
+}
+#Works .images2 img {
+
+    width: 280px;
+    height: 250px;
+ transition: 0.5s;
+    
+}
+/* #Works .images img,.images2 img:hover{
+width: 300px;
+height: 270px;
+} */
+
+#Works .images img:hover{
+    width: 300px;
+    height: 270px;
+     
+ }
+#Works .images2 img:hover{
+   width: 300px;
+   height: 270px;
+    
+}
+#contact{
+    width: 100%;
+    height: 150px;
+    background: rgb(228, 225, 225);
+    display: flex;
+}
+#contact h4{
+    padding-left: 160px;
+    padding-top: 70px;
+}
+/*
+          
+ #contact .super.info{
+  margin: 40px;
+  padding: 40px;
+
+}
+.information{
+    padding-left: 20px;
+    margin-left: 40px;
+}
+#contact .super.inforamation p,h6{
+    font-size: 20px;
+} */
+
+#contact .super{
+    display: flex;
+   
+    padding-left: 60px;
+
+}
+#contact .super div{
+    padding-left: 100px;
+    padding-top: 70px;
+    margin-left: 30px;
+}
+#contact .super div p,h6{
+    font-size: 15px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    
+}
+footer div{
+    padding-top: 30px;
+    padding-left: 200px;
+    margin-left: 140px;
+}
+footer div span,p{
+  font-weight: bold;
+}
